@@ -156,8 +156,16 @@
 					font-size: inherit;
 					font-weight: inherit;
 				}
+				h1,
+				p {
+					margin: 0;
+				}
 				img {
 					border-style: solid;
+					display: block;
+					vertical-align: middle;
+					max-width: 100%;
+					height: auto;
 				}
 				input::placeholder {
 					opacity: 1;
@@ -333,8 +341,44 @@
 					font-size: 6rem;
 					line-height: 1;
 				}
+				.text-4xl {
+					font-size: 2.25rem;
+					line-height: 2.5rem;
+				}
+				.text-xl {
+					font-size: 1.25rem;
+					line-height: 1.75rem;
+				}
+				.text-2xl {
+					font-size: 1.5rem;
+					line-height: 2rem;
+				}
 				.m-10 {
 					margin: 2.5rem;
+				}
+				.mt-5 {
+					margin-top: 1.25rem;
+				}
+				.mt-2 {
+					margin-top: 0.5rem;
+				}
+				.mt-10 {
+					margin-top: 2.5rem;
+				}
+				.mt-0 {
+					margin-top: 0px;
+				}
+				.mt-6 {
+					margin-top: 1.5rem;
+				}
+				.mt-4 {
+					margin-top: 1rem;
+				}
+				.mr-2 {
+					margin-right: 0.5rem;
+				}
+				.mr-5 {
+					margin-right: 1.25rem;
 				}
 				.outline-light-blue-800 {
 					--tw-outline-opacity: 1;
@@ -343,9 +387,43 @@
 				.outline-2 {
 					outline-width: 2px;
 				}
+				.p-20 {
+					padding: 5rem;
+				}
+				.text-center {
+					text-align: center;
+				}
 				.text-sky-100 {
 					--tw-text-opacity: 1;
 					color: rgba(224, 242, 254, var(--tw-text-opacity));
+				}
+				.text-blue-800 {
+					--tw-text-opacity: 1;
+					color: rgba(30, 64, 175, var(--tw-text-opacity));
+				}
+				.text-blue-400 {
+					--tw-text-opacity: 1;
+					color: rgba(96, 165, 250, var(--tw-text-opacity));
+				}
+				.text-green-400 {
+					--tw-text-opacity: 1;
+					color: rgba(52, 211, 153, var(--tw-text-opacity));
+				}
+				.text-sky-200 {
+					--tw-text-opacity: 1;
+					color: rgba(186, 230, 253, var(--tw-text-opacity));
+				}
+				.text-purple-500 {
+					--tw-text-opacity: 1;
+					color: rgba(139, 92, 246, var(--tw-text-opacity));
+				}
+				.text-purple-400 {
+					--tw-text-opacity: 1;
+					color: rgba(167, 139, 250, var(--tw-text-opacity));
+				}
+				.text-purple-300 {
+					--tw-text-opacity: 1;
+					color: rgba(196, 181, 253, var(--tw-text-opacity));
 				}
 				.align-middle {
 					vertical-align: middle;
@@ -354,9 +432,12 @@
 
 			<div
 				style="width: 391px; height: 96px; margin-top: 10px; margin-left: 5px"
-				class="flex justify-center font-sans bg-gray-900 rounded-2xl border-2 border-light-blue-800"
+				class="flex justify-center font-sans bg-gray-900 text-sky-100 rounded-2xl border-2 border-light-blue-800"
 			>
-				<div class="flex flex-col justify-center"></div>
+				<div class="flex flex justify-center items-center text-xl font-bold">
+					<img src="flag.svg" width="50" height="50" class="mr-5" />
+					Olvass rólam Magyarul 🡕
+				</div>
 			</div>
 		</div>
 	</foreignObject>
