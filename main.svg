@@ -1,412 +1,303 @@
 <svg
 	fill="none"
-	viewBox="0 0 800 800"
+	viewBox="0 0 800 690"
 	width="800"
-	height="800"
+	height="690"
 	xmlns="http://www.w3.org/2000/svg"
 >
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
-				*,
-				::before,
-				::after {
-					-webkit-box-sizing: border-box;
-					box-sizing: border-box;
-					border-width: 0;
-					border-style: solid;
-					border-color: #e5e7eb;
-				}
-				* {
-					--tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
-					--tw-ring-offset-width: 0px;
-					--tw-ring-offset-color: #fff;
-					--tw-ring-color: rgba(59, 130, 246, 0.5);
-					--tw-ring-offset-shadow: 0 0 #0000;
-					--tw-ring-shadow: 0 0 #0000;
-					--tw-shadow: 0 0 #0000;
-				}
-				:root {
-					-moz-tab-size: 4;
-					-o-tab-size: 4;
-					tab-size: 4;
-				}
-				:-moz-focusring {
-					outline: 1px dotted ButtonText;
-				}
-				:-moz-ui-invalid {
-					box-shadow: none;
-				}
-				::moz-focus-inner {
-					border-style: none;
-					padding: 0;
-				}
-				::-webkit-inner-spin-button,
-				::-webkit-outer-spin-button {
-					height: auto;
-				}
-				::-webkit-search-decoration {
-					-webkit-appearance: none;
-				}
-				::-webkit-file-upload-button {
-					-webkit-appearance: button;
-					font: inherit;
-				}
-				[type="search"] {
-					-webkit-appearance: textfield;
-					outline-offset: -2px;
-				}
-				abbr[title] {
-					-webkit-text-decoration: underline dotted;
-					text-decoration: underline dotted;
-				}
-				a {
-					color: inherit;
-					text-decoration: inherit;
-				}
-				body {
-					margin: 0;
-					font-family: inherit;
-					line-height: inherit;
-				}
-				b,
-				strong {
-					font-weight: bolder;
-				}
-				button,
-				input,
-				optgroup,
-				select,
-				textarea {
-					font-family: inherit;
-					font-size: 100%;
-					line-height: 1.15;
-					margin: 0;
-					padding: 0;
-					line-height: inherit;
-					color: inherit;
-				}
-				button,
-				select {
-					text-transform: none;
-				}
-				button,
-				[type="button"],
-				[type="reset"],
-				[type="submit"] {
-					-webkit-appearance: button;
-				}
-				blockquote,
-				dl,
-				dd,
-				h1,
-				h2,
-				h3,
-				h4,
-				h5,
-				h6,
-				hr,
-				figure,
-				p,
-				pre {
-					margin: 0;
-				}
-				button {
-					background-color: transparent;
-					background-image: none;
-				}
-				button,
-				[role="button"] {
-					cursor: pointer;
-				}
-				code,
-				kbd,
-				samp,
-				pre {
-					font-size: 1em;
-				}
-				fieldset {
-					margin: 0;
-					padding: 0;
-				}
-				html {
-					-webkit-text-size-adjust: 100%;
-					font-family: ui-sans-serif, system-ui, -apple-system,
-						BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-						"Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-						"Segoe UI Symbol", "Noto Color Emoji";
-					line-height: 1.5;
-				}
-				h1 {
-					margin: 0;
-					font-size: inherit;
-					font-weight: inherit;
-				}
-				hr {
-					height: 0;
-					color: inherit;
-					border-top-width: 1px;
-				}
-				h1,
-				h2,
-				h3,
-				h4,
-				h5,
-				h6 {
-					font-size: inherit;
-					font-weight: inherit;
-				}
-				img {
-					border-style: solid;
-				}
-				input::placeholder {
-					opacity: 1;
-					color: #9ca3af;
-				}
-				input::webkit-input-placeholder {
-					opacity: 1;
-					color: #9ca3af;
-				}
-				input::-moz-placeholder {
-					opacity: 1;
-					color: #9ca3af;
-				}
-				input:-ms-input-placeholder {
-					opacity: 1;
-					color: #9ca3af;
-				}
-				input::-ms-input-placeholder {
-					opacity: 1;
-					color: #9ca3af;
-				}
-				img,
-				svg,
-				video,
-				canvas,
-				audio,
-				iframe,
-				embed,
-				object {
-					display: block;
-					vertical-align: middle;
-				}
-				img,
-				video {
-					max-width: 100%;
-					height: auto;
-				}
-				legend {
-					padding: 0;
-				}
-				ol,
-				ul {
-					list-style: none;
-					margin: 0;
-					padding: 0;
-				}
-				progress {
-					vertical-align: baseline;
-				}
-				pre,
-				code,
-				kbd,
-				samp {
-					font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-						"Liberation Mono", "Courier New", monospace;
-				}
-				small {
-					font-size: 80%;
-				}
-				sub,
-				sup {
-					font-size: 75%;
-					line-height: 0;
-					position: relative;
-					vertical-align: baseline;
-				}
-				sub {
-					bottom: -0.25em;
-				}
-				sup {
-					top: -0.5em;
-				}
-				summary {
-					display: list-item;
-				}
-				table {
-					text-indent: 0;
-					border-color: inherit;
-					border-collapse: collapse;
-				}
-				textarea {
-					resize: vertical;
-				}
-				textarea::placeholder {
-					opacity: 1;
-					color: #9ca3af;
-				}
-				textarea::webkit-input-placeholder {
-					opacity: 1;
-					color: #9ca3af;
-				}
-				textarea::-moz-placeholder {
-					opacity: 1;
-					color: #9ca3af;
-				}
-				textarea:-ms-input-placeholder {
-					opacity: 1;
-					color: #9ca3af;
-				}
-				textarea::-ms-input-placeholder {
-					opacity: 1;
-					color: #9ca3af;
-				}
-				.bg-gray-900 {
-					--tw-bg-opacity: 1;
-					background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
-				}
-				.bg-gray-50 {
-					--tw-bg-opacity: 1;
-					background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
-				}
-				.bg-black {
-					--tw-bg-opacity: 1;
-					background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-				}
-				.border-light-900 {
-					--tw-border-opacity: 1;
-					border-color: rgba(221, 225, 227, var(--tw-border-opacity));
-				}
-				.border-light-blue-600 {
-					--tw-border-opacity: 1;
-					border-color: rgba(2, 132, 199, var(--tw-border-opacity));
-				}
-				.border-light-blue-800 {
-					--tw-border-opacity: 1;
-					border-color: rgba(7, 89, 133, var(--tw-border-opacity));
-				}
-				.rounded-md {
-					border-radius: 0.375rem;
-				}
-				.rounded-lg {
-					border-radius: 0.5rem;
-				}
-				.rounded-2xl {
-					border-radius: 1rem;
-				}
-				.rounded {
-					border-radius: 0.25rem;
-				}
-				.border {
-					border-width: 1px;
-				}
-				.border-2 {
-					border-width: 2px;
-				}
-				.border-1 {
-					border-width: 1px;
-				}
-				.border-6 {
-					border-width: 6px;
-				}
-				.flex {
-					display: -webkit-box;
-					display: -ms-flexbox;
-					display: -webkit-flex;
-					display: flex;
-				}
-				.flex-row {
-					-webkit-box-orient: horizontal;
-					-webkit-box-direction: normal;
-					-ms-flex-direction: row;
-					-webkit-flex-direction: row;
-					flex-direction: row;
-				}
-				.flex-col {
-					-webkit-box-orient: vertical;
-					-webkit-box-direction: normal;
-					-ms-flex-direction: column;
-					-webkit-flex-direction: column;
-					flex-direction: column;
-				}
-				.justify-center {
-					-webkit-box-pack: center;
-					-ms-flex-pack: center;
-					-webkit-justify-content: center;
-					justify-content: center;
-				}
-				.justify-between {
-					-webkit-box-pack: justify;
-					-ms-flex-pack: justify;
-					-webkit-justify-content: space-between;
-					justify-content: space-between;
-				}
-				.font-sans {
-					font-family: ui-sans-serif, system-ui, -apple-system,
-						BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-						"Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-						"Segoe UI Symbol", "Noto Color Emoji";
-				}
-				.font-serif {
-					font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times,
-						serif;
-				}
-				.font-bold {
-					font-weight: 700;
-				}
-				.h-200 {
-					height: 50rem;
-				}
-				.text-8xl {
-					font-size: 6rem;
-					line-height: 1;
-				}
-				.m-10 {
-					margin: 2.5rem;
-				}
-				.m-2 {
-					margin: 0.5rem;
-				}
-				.stroke-light-900 {
-					--tw-stroke-opacity: 1;
-					stroke: rgba(221, 225, 227, var(--tw-stroke-opacity));
-				}
-				.text-sky-100 {
-					--tw-text-opacity: 1;
-					color: rgba(224, 242, 254, var(--tw-text-opacity));
-				}
-				.align-middle {
-					vertical-align: middle;
-				}
-				.w-200 {
-					width: 50rem;
-				}
+*, ::before, ::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+* {
+  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+}
+:root {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+}
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+::moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+  height: auto;
+}
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+[type='search'] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+body {
+  margin: 0;
+  font-family: inherit;
+  line-height: inherit;
+}
+b, strong {
+  font-weight: bolder;
+}
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+}
+button, select {
+  text-transform: none;
+}
+button, [type='button'], [type='reset'], [type='submit'] {
+  -webkit-appearance: button;
+}
+blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
+  margin: 0;
+}
+button {
+  background-color: transparent;
+  background-image: none;
+}
+button, [role="button"] {
+  cursor: pointer;
+}
+code, kbd, samp, pre {
+  font-size: 1em;
+}
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  line-height: 1.5;
+}
+h1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+hr {
+  height: 0;
+  color: inherit;
+  border-top-width: 1px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+img {
+  border-style: solid;
+}
+input::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+input::webkit-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+input::-moz-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+input:-ms-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+input::-ms-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: block;
+  vertical-align: middle;
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+legend {
+  padding: 0;
+}
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+progress {
+  vertical-align: baseline;
+}
+pre, code, kbd, samp {
+  font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+small {
+  font-size: 80%;
+}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+summary {
+  display: list-item;
+}
+table {
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+textarea {
+  resize: vertical;
+}
+textarea::placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+textarea::webkit-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+textarea::-moz-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+textarea:-ms-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+textarea::-ms-input-placeholder {
+  opacity: 1;
+  color: #9ca3af;
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+}
+.border-light-blue-800 {
+  --tw-border-opacity: 1;
+  border-color: rgba(7, 89, 133, var(--tw-border-opacity));
+}
+.rounded-2xl {
+  border-radius: 1rem;
+}
+.border-2 {
+  border-width: 2px;
+}
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.justify-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.font-sans {
+  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.font-bold {
+  font-weight: 700;
+}
+.h-200 {
+  height: 50rem;
+}
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+.m-10 {
+  margin: 2.5rem;
+}
+.outline-light-blue-800 {
+  --tw-outline-opacity: 1;
+  outline-color: rgba(7, 89, 133, var(--tw-outline-opacity));
+}
+.outline-2 {
+  outline-width: 2px;
+}
+.text-sky-100 {
+  --tw-text-opacity: 1;
+  color: rgba(224, 242, 254, var(--tw-text-opacity));
+}
 			</style>
 
-			<main class="flex flex-col font-sans text-sky-100">
-				<div
-					style="width: 800px; height: 690px"
-					class="bg-gray-900 flex flex-row justify-center rounded-2xl border-2 border-light-blue-800"
-				>
-					<div style="height: 690px" class="h-200 flex flex-col justify-center">
-						<h1 class="text-8xl font-bold">Hi</h1>
-					</div>
+			<div
+				style="width: 796px; height: 686px"
+				class="bg-gray-900 flex flex-row justify-center rounded-2xl border-2 border-light-blue-800"
+			>
+				<div style="height: 686px" class="flex flex-col justify-center">
+					<h1 class="text-8xl font-bold">Hi</h1>
 				</div>
-				<div class="flex flex-row justify-between">
-					<div
-						style="width: 395px; height: 100px; margin-top: 10px"
-						class="flex justify-center bg-gray-900 rounded-2xl border-2 border-light-blue-800"
-					>
-						<div class="flex flex-col justify-center"></div>
-					</div>
-					<div
-						style="width: 395px; height: 100px; margin-top: 10px"
-						class="flex justify-center bg-gray-900 rounded-2xl border-2 border-light-blue-800"
-					>
-						<div class="flex flex-col justify-center"></div>
-					</div>
-				</div>
-			</main>
+			</div>
 		</div>
 	</foreignObject>
 </svg>
